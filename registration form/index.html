@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h2>Registration Form</h2>
+        <div class="main">
+          <div class="input-box">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your Name"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              placeholder="Enter Your Username"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="e-mail"> E-mail</label>
+            <input
+              type="e-mail"
+              name="e-mail"
+              placeholder="Enter Your E-mail"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="phonenumber">Number</label>
+            <input
+              type="tel"
+              name="phonenumber"
+              placeholder="Enter Your PhoneNumber"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Your Password"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <label for="c-password">Confirm Password</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              placeholder="Confirm Password"
+              required
+            />
+          </div>
+          <span class="gender">Gender</span>
+          <div class="choose-gender">
+            <input type="radio" name="gender" id="male" />
+            <label for="gender">male</label>
+            <input type="radio" name="gender" id="Female" />
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="other" />
+            <label for="gender">Not to say</label>
+          </div>
+        </div>
+        <div class="alert">
+          <p>
+            By clicking Register, you can agree to our
+            <a href="#">Terms and Condition</a> and
+            <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+        <div class="button">
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
